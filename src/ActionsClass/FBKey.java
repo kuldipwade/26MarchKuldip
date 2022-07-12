@@ -36,6 +36,7 @@ public class FBKey {
      //   Firstname.sendKeys("Kuldip");-----> By using action Class.
      //   Act.keyDown(Firstname, Keys.SHIFT).sendKeys("k").build().perform();
         Act.keyDown(Firstname, Keys.SHIFT).sendKeys("k").keyUp(Keys.SHIFT).sendKeys("uldip").build().perform();
+        System.out.println("Hii This Is My first Code");
         
         
 
